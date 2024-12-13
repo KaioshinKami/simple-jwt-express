@@ -11,7 +11,7 @@ app.use('/auth', authRouter)
 
 const start= async ()=>{
     try{
-        await mongoose.connect('mongodb+srv://user123:user123@jwt-simple.xqmwn.mongodb.net/?retryWrites=true&w=majority&appName=jwt-simple')
+        await mongoose.connect('link')
         app.listen(PORT, ()=>{
             console.log(`server work ${PORT}`)
         })
